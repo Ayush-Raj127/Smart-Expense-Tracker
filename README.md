@@ -48,3 +48,12 @@ Security
 3. JWT token is generated and sent to client
 4. Client sends JWT with each request
 5. Backend verifies token before database access
+
+
+🎯 Learning Outcomes
+
+1. Full-stack application architecture
+2. REST API design
+3. Secure authentication & authorization
+4. Database modeling
+5. Frontend–backend communication
