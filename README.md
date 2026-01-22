@@ -3,42 +3,48 @@ Smart Expense Tracker is a secure full-stack web app that allows users to regist
 
 🚀 Features
 
-User Registration & Login
-JWT-based Authentication & Authorization
-Password Hashing using bcrypt
-Add, Update, Delete Expenses (CRUD)
-Category-wise and Monthly Expense Tracking
-Interactive Charts & Analytics
-Secure, User-specific Data Access
+1. User Registration & Login
+2. JWT-based Authentication & Authorization
+3. Password Hashing using bcrypt
+4. Add, Update, Delete Expenses (CRUD)
+5. Category-wise and Monthly Expense Tracking
+6. Interactive Charts & Analytics
+7. Secure, User-specific Data Access
+
 
 🧱 Tech Stack
 Frontend
-HTML
-CSS
-JavaScript
-Chart.js
+1. HTML
+2. CSS
+3. JavaScript
+4. Chart.js
+
 Backend
-Node.js
-Express.js
-REST APIs
+1. Node.js
+2. Express.js
+3. REST APIs
+4. 
 Database
-MongoDB
-Mongoose
+1. MongoDB
+2. Mongoose
+
 Security
-JSON Web Tokens (JWT)
-bcrypt
-Auth Middleware
-CORS & Input Validation
+1. JSON Web Tokens (JWT)
+2. bcrypt
+3. Auth Middleware
+4. CORS & Input Validation
+
 
 🔐 Security Highlights
-Passwords are securely hashed before storage
-JWT tokens protect all private routes
-Middleware ensures users can only access their own data
-No sensitive data exposed on the client side
+1. Passwords are securely hashed before storage
+2. JWT tokens protect all private routes
+3. Middleware ensures users can only access their own data
+4. No sensitive data exposed on the client side
+
 
 🔁 Application Flow
-User registers or logs in
-Backend validates credentials
-JWT token is generated and sent to client
-Client sends JWT with each request
-Backend verifies token before database access
+1. User registers or logs in
+2. Backend validates credentials
+3. JWT token is generated and sent to client
+4. Client sends JWT with each request
+5. Backend verifies token before database access
