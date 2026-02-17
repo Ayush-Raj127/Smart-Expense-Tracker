@@ -1,13 +1,13 @@
 # Smart-Expense-Tracker
-Smart Expense Tracker is a secure full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). The application allows users to register, log in securely, and manage their daily income and expenses with real-time analytics and visual dashboards.
+Smart Expense Tracker is a secure full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, log in securely, and manage daily income and expenses with real-time analytics and dashboards.
 
-This project demonstrates complete frontend–backend integration, RESTful API development, database modeling, authentication, and secure user-specific data handling.
+This project demonstrates complete frontend–backend integration, RESTful API development, authentication, database modeling, and secure user-specific data handling.
 
 📚 Module-Based Implementation
 
 The project was developed in structured modules, each focusing on a specific full-stack concept.
 
-🟢 Module 1: Project Planning & Architecture
+1️⃣ Module 1: Project Planning & Architecture
 
 Designed high-level system architecture
 
@@ -19,7 +19,7 @@ Planned API endpoints and database schema
 
 Outcome: Clear roadmap before implementation.
 
-🟢 Module 2: Frontend Development (React)
+2️⃣ Module 2: Frontend Development (React)
 
 Built Login & Registration pages
 
@@ -31,7 +31,7 @@ Implemented responsive UI
 
 Outcome: Functional and user-friendly interface.
 
-🟢 Module 3: Backend Development (Node.js + Express)
+3️⃣ Module 3: Backend Development (Node.js + Express)
 
 Set up Express server
 
@@ -43,7 +43,7 @@ Implemented CRUD operations for income & expenses
 
 Outcome: Fully functional backend API layer.
 
-🟢 Module 4: Database Integration (MongoDB + Mongoose)
+4️⃣ Module 4: Database Integration (MongoDB + Mongoose)
 
 Connected backend to MongoDB
 
@@ -55,7 +55,7 @@ Ensured user-specific data storage
 
 Outcome: Persistent and structured data management.
 
-🟢 Module 5: Authentication & Security
+5️⃣ Module 5: Authentication & Security
 
 Password hashing using bcrypt
 
@@ -67,7 +67,7 @@ Secure token verification
 
 Outcome: Secure login and authorization system.
 
-🟢 Module 6: API Integration (Frontend ↔ Backend)
+6️⃣ Module 6: API Integration (Frontend ↔ Backend)
 
 Used Axios for API calls
 
@@ -79,7 +79,7 @@ Handled errors and loading states
 
 Outcome: Seamless frontend–backend communication.
 
-🟢 Module 7: Dashboard & Analytics
+7️⃣ Module 7: Dashboard & Analytics
 
 Displayed total balance summary
 
@@ -91,7 +91,7 @@ Displayed recent transactions
 
 Outcome: Visual representation of financial data.
 
-🟢 Module 8: Final Testing & Deployment Preparation
+8️⃣ Module 8: Testing & Deployment Preparation
 
 Tested APIs using Postman
 
@@ -115,11 +115,9 @@ Income & Expense CRUD Operations
 
 Real-Time Dashboard
 
-Interactive Charts & Analytics
+Interactive Charts
 
 Secure User-Specific Data Access
-
-RESTful API Architecture
 
 🧱 Tech Stack
 Frontend
@@ -144,25 +142,15 @@ Mongoose
 
 Security
 
-JSON Web Tokens (JWT)
+JWT
 
 bcrypt
 
 Authentication Middleware
 
-🔐 Security Highlights
-
-Passwords stored securely using hashing
-
-JWT tokens protect private routes
-
-Middleware prevents unauthorized access
-
-Each user can access only their own financial data
-
 🎯 Learning Outcomes
 
-Understanding MERN full-stack architecture
+Understanding MERN architecture
 
 Designing RESTful APIs
 
@@ -170,7 +158,5 @@ Implementing authentication & authorization
 
 Database schema design
 
-Frontend–backend integration
-
-Secure web application development
+Secure full-stack application development
 5. Frontend–backend communication
