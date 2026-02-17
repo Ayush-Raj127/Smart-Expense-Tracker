@@ -1,162 +1,142 @@
-# Smart-Expense-Tracker
-Smart Expense Tracker is a secure full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to register, log in securely, and manage daily income and expenses with real-time analytics and dashboards.
+# Smart Expense Tracker  
+Smart Expense Tracker is a secure full-stack web application built using the **MERN stack (MongoDB, Express, React, Node.js)**. It allows users to register, log in securely, and manage daily income and expenses with real-time analytics and dashboards.
 
 This project demonstrates complete frontend–backend integration, RESTful API development, authentication, database modeling, and secure user-specific data handling.
 
-📚 Module-Based Implementation
+---
+
+##  Module-Based Implementation
 
 The project was developed in structured modules, each focusing on a specific full-stack concept.
 
-1️⃣ Module 1: Project Planning & Architecture
+---
 
-Designed high-level system architecture
+## 1. Project Planning & Architecture
 
-Defined frontend–backend communication flow
+- Designed high-level system architecture  
+- Defined frontend–backend communication flow  
+- Structured folder organization  
+- Planned API endpoints and database schema  
 
-Structured folder organization
+**Outcome:** Clear roadmap before implementation.
 
-Planned API endpoints and database schema
+---
 
-Outcome: Clear roadmap before implementation.
+## 2. Frontend Development (React)
 
-2️⃣ Module 2: Frontend Development (React)
+- Built Login & Registration pages  
+- Created Dashboard layout  
+- Developed reusable components  
+- Implemented responsive UI  
 
-Built Login & Registration pages
+**Outcome:** Functional and user-friendly interface.
 
-Created Dashboard layout
+---
 
-Developed reusable components
+## 3. Backend Development (Node.js + Express)
 
-Implemented responsive UI
+- Set up Express server  
+- Created RESTful API routes  
+- Structured controllers and middleware  
+- Implemented CRUD operations for income & expenses  
 
-Outcome: Functional and user-friendly interface.
+**Outcome:** Fully functional backend API layer.
 
-3️⃣ Module 3: Backend Development (Node.js + Express)
+---
 
-Set up Express server
+## 4. Database Integration (MongoDB + Mongoose)
 
-Created RESTful API routes
+- Connected backend to MongoDB  
+- Created User, Income, and Expense schemas  
+- Implemented data validation  
+- Ensured user-specific data storage  
 
-Structured controllers and middleware
+**Outcome:** Persistent and structured data management.
 
-Implemented CRUD operations for income & expenses
+---
 
-Outcome: Fully functional backend API layer.
+## 5. Authentication & Security
 
-4️⃣ Module 4: Database Integration (MongoDB + Mongoose)
+- Password hashing using **bcrypt**  
+- JWT-based authentication  
+- Protected routes using middleware  
+- Secure token verification  
 
-Connected backend to MongoDB
+**Outcome:** Secure login and authorization system.
 
-Created User, Income, and Expense schemas
+---
 
-Implemented data validation
+## 6. API Integration (Frontend ↔ Backend)
 
-Ensured user-specific data storage
+- Used Axios for API calls  
+- Sent JWT token with requests  
+- Managed state updates after API responses  
+- Handled errors and loading states  
 
-Outcome: Persistent and structured data management.
+**Outcome:** Seamless frontend–backend communication.
 
-5️⃣ Module 5: Authentication & Security
+---
 
-Password hashing using bcrypt
+## 7. Dashboard & Analytics
 
-JWT-based authentication
+- Displayed total balance summary  
+- Implemented income vs expense tracking  
+- Integrated interactive charts  
+- Displayed recent transactions  
 
-Protected routes using middleware
+**Outcome:** Visual representation of financial data.
 
-Secure token verification
+---
 
-Outcome: Secure login and authorization system.
+## 8. Testing & Deployment Preparation
 
-6️⃣ Module 6: API Integration (Frontend ↔ Backend)
+- Tested APIs using Postman  
+- Configured environment variables  
+- Cleaned and optimized code  
+- Prepared production-ready structure  
 
-Used Axios for API calls
+**Outcome:** Complete, secure, and deployment-ready application.
 
-Sent JWT token with requests
+---
 
-Managed state updates after API responses
+##  Key Features
 
-Handled errors and loading states
+- User Registration & Login  
+- JWT Authentication & Authorization  
+- Password Hashing (bcrypt)  
+- Income & Expense CRUD Operations  
+- Real-Time Dashboard  
+- Interactive Charts  
+- Secure User-Specific Data Access  
 
-Outcome: Seamless frontend–backend communication.
+---
 
-7️⃣ Module 7: Dashboard & Analytics
+##  Tech Stack
 
-Displayed total balance summary
+### Frontend
+- React.js  
+- Axios  
+- CSS  
 
-Implemented income vs expense tracking
+### Backend
+- Node.js  
+- Express.js  
 
-Integrated interactive charts
+### Database
+- MongoDB  
+- Mongoose  
 
-Displayed recent transactions
+### Security
+- JWT  
+- bcrypt  
+- Authentication Middleware  
 
-Outcome: Visual representation of financial data.
+---
 
-8️⃣ Module 8: Testing & Deployment Preparation
+##  Learning Outcomes
 
-Tested APIs using Postman
-
-Configured environment variables
-
-Cleaned and optimized code
-
-Prepared production-ready structure
-
-Outcome: Complete, secure, and deployment-ready application.
-
-🚀 Key Features
-
-User Registration & Login
-
-JWT Authentication & Authorization
-
-Password Hashing (bcrypt)
-
-Income & Expense CRUD Operations
-
-Real-Time Dashboard
-
-Interactive Charts
-
-Secure User-Specific Data Access
-
-🧱 Tech Stack
-Frontend
-
-React.js
-
-Axios
-
-CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Mongoose
-
-Security
-
-JWT
-
-bcrypt
-
-Authentication Middleware
-
-🎯 Learning Outcomes
-
-Understanding MERN architecture
-
-Designing RESTful APIs
-
-Implementing authentication & authorization
-
-Database schema design
-
-Secure full-stack application development
-5. Frontend–backend communication
+- Understanding MERN architecture  
+- Designing RESTful APIs  
+- Implementing authentication & authorization  
+- Database schema design  
+- Secure full-stack application development  
